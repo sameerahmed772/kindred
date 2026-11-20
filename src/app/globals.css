@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #0b0d12;
+  --bg-surface: #13161f;
+  --text-primary: #f8fafc;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-plus-jakarta), system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+}
